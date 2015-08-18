@@ -1,0 +1,16 @@
+@(form: play.api.data.Form[User])
+
+@main("Welcome to Play 2.0") {
+
+    <script src="@routes.Assets.at("javascripts/user.js")" type="text/javascript"></script>
+
+    <ul id="users"></ul>
+
+    @helper.form(action = routes.UserCtl.addUser) {
+        @helper.inputText(form("name"))
+        @helper.inputText(form("address"))
+        @helper.inputText(form("email"))
+        <input type="submit"/>
+    }
+
+}
