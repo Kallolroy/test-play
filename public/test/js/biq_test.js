@@ -1,4 +1,4 @@
-steal("jquery", "funcunit", "./helper.js", function ($, S) {
+
     // Wait timeouts (ms) for opening the page and making
     // AJAX requests.
     var openPageTimeout = 50000,
@@ -15,7 +15,7 @@ steal("jquery", "funcunit", "./helper.js", function ($, S) {
     module("Login", {
         setup: function () {
             // Open the page
-            S.open("default.htm", openPageTimeout);
+            S.open("http://localhost:9000/", openPageTimeout);
         }
     });
 
@@ -199,6 +199,6 @@ steal("jquery", "funcunit", "./helper.js", function ($, S) {
         S(".login").visible(serviceCallTimeout, function () {
             ok(true, "The logout is successful.");
         });
-    });
+
 
 });

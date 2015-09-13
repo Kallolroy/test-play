@@ -1,4 +1,4 @@
-steal('../core.js', function(FuncUnit) {
+steal('/assets/test/funcunit/core.js', function(FuncUnit) {
 var paused = false;
 FuncUnit.unit = {
 	pauseTest:function(){

@@ -1,4 +1,4 @@
-﻿steal("jquery", "funcunit", function ($, S) {
+﻿
 
     // Create a namespace for testing utilities.
     Sentrana = {};
@@ -81,4 +81,3 @@
             });
         }
     };
-});
