@@ -1,0 +1,10 @@
+==================================================================================
+STARTING TESTS FOR - \public\test\qunit_test.html
+==================================================================================
+
+
+Unable to load resource (URL:file:///D:/Test/play2bars-squeryl/%255Cpublic%255Ctest%255Cqunit_test.html)
+Error code: 203. Description: Error opening D:/Test/play2bars-squeryl/%5Cpublic%5Ctest%5Cqunit_test.html: No such file or directory
+Unable to access network: fail
+
+  \public\test\lib\runner.js:240
