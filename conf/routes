@@ -11,7 +11,7 @@ POST        /users                                   controllers.UserCtl.addUser
 GET         /barhome                                 controllers.Application.index
 GET         /bars                                    controllers.Application.getBars
 POST        /bars                                    controllers.Application.addBar
-GET         /test                                    controllers.Assets.at(path="/public", file="test/qunit_test.html")
+GET         /test                                    controllers.Assets.at(path="/public", file="test/funit_test.html")
 
 # Map static resources from the /public folder to the /assets URL path
 GET         /assets/*file                            controllers.Assets.at(path="/public", file)
